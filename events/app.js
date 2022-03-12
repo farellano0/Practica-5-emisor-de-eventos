@@ -36,6 +36,23 @@ console.log(obj.mouseOver());//Manda a llamar la función que se encuentra en el
 
 console.log(myArray[3]());//Se manda a llamar la función que se encuentra en la tercera posición del Array, de igual forma que la anterior se requiere el uso de los parentesis para ejecutar la función
 
+let funcArray = [];
+
+funcArray.push( () => {
+    console.log("Function 1");
+});
+
+funcArray.push( () => {
+    console.log("Function 2");
+});
+
+funcArray.push( () => {
+    console.log("Function 3");
+});
+
+funcArray.forEach((item) => { //El método forEach() en esta línea funciona para mandar a llamar cada función que ese encuentra en el Array.
+    item();
+});
 
 
 

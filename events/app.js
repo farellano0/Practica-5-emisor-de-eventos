@@ -32,6 +32,10 @@ myArray.push(function () {
 
 console.log(myArray); //Se muestra el vector que se creo con los datos que se fueron ingresando de la linea 26 a la linea 29. Se observa el 4, una cadena, un objeto y una función, aunque esta última se presente como función anónima.
 
-console.log(obj.mouseOver());
+console.log(obj.mouseOver());//Manda a llamar la función que se encuentra en el objeto, para esto es importante agregarle los parentesis para que se ejecute la función.
+
+console.log(myArray[3]());//Se manda a llamar la función que se encuentra en la tercera posición del Array, de igual forma que la anterior se requiere el uso de los parentesis para ejecutar la función
+
+
 
 

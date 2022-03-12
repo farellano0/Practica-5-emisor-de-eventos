@@ -32,4 +32,6 @@ myArray.push(function () {
 
 console.log(myArray); //Se muestra el vector que se creo con los datos que se fueron ingresando de la linea 26 a la linea 29. Se observa el 4, una cadena, un objeto y una función, aunque esta última se presente como función anónima.
 
+console.log(obj.mouseOver());
+
 
